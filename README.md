@@ -4,7 +4,7 @@ This is a simple React application that allows users to search for media items o
 
 How to Use the App:
 
-Clone the repository to your local machine using the following command: git clone
+Clone the repository to your local machine using the following command: git clone https://github.com/TommyBow/Itunes-App/tree/master
 
 Navigate to the project directory: cd server and cd client
 
