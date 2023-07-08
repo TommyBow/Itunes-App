@@ -1,0 +1,105 @@
+/* App.css */
+
+.header2,
+.par {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.header2 {
+  font-size: x-large;
+  text-decoration: underline;
+}
+
+.navbar {
+  background-color: #353535;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  height: 50px;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  color: #f2f2f2;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+
+.search-results-container,
+.favorites-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.search-results-row,
+.favorites-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.search-result-item,
+.favorite-item {
+  width: calc(25% - 10px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.search-result-item:last-child,
+.favorite-item:last-child {
+  margin-right: 0;
+}
+
+.search-result-item img,
+.favorite-item img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.search-result-item h3,
+.favorite-item h3,
+.search-result-item p,
+.favorite-item p {
+  margin: 0;
+  text-align: center;
+}
+
+.search-result-item button,
+.favorite-item button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-result-item button:hover,
+.favorite-item button:hover {
+  background-color: #45a049;
+}
+
+.search-result-item button:focus,
+.favorite-item button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}
+
+.search-result-item button:active,
+.favorite-item button:active {
+  background-color: #a9f8ac;
+}

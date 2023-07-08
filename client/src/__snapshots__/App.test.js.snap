@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders app correctly 1`] = `
+<DocumentFragment>
+  <div>
+    <h1
+      class="header1"
+    >
+      iTunes Search App
+    </h1>
+    <form
+      class="search-bar"
+    >
+      <input
+        class="search-bar__input"
+        placeholder="Enter search term"
+        type="text"
+        value=""
+      />
+      <select
+        class="search-bar__select"
+      >
+        <option
+          value="all"
+        >
+          All
+        </option>
+        <option
+          value="movie"
+        >
+          Movie
+        </option>
+        <option
+          value="podcast"
+        >
+          Podcast
+        </option>
+        <option
+          value="music"
+        >
+          Music
+        </option>
+        <option
+          value="audiobook"
+        >
+          Audiobook
+        </option>
+        <option
+          value="shortFilm"
+        >
+          Short Film
+        </option>
+        <option
+          value="tvShow"
+        >
+          TV Show
+        </option>
+        <option
+          value="software"
+        >
+          Software
+        </option>
+        <option
+          value="ebook"
+        >
+          Ebook
+        </option>
+      </select>
+      <button
+        class="search-bar__button"
+        type="submit"
+      >
+        Search
+      </button>
+    </form>
+    <h2
+      class="header2"
+    >
+      Search Results
+    </h2>
+    <p
+      class="par"
+    >
+      No search results found.
+    </p>
+    <h2
+      class="header2"
+    >
+      Favorites
+    </h2>
+    <div
+      class="search-results-container"
+    />
+  </div>
+</DocumentFragment>
+`;
