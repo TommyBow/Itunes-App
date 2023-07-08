@@ -22,4 +22,5 @@ Input validation: The app performs basic input validation to prevent malicious u
 
 Network security: The app is built using React and follows best practices for secure communication over HTTPS. It does not perform any sensitive operations or handle user authentication, but if you plan to extend the app, make sure to follow secure coding practices and use encryption where necessary.
 
-Deployed App The app has been deployed and can be accessed at //////////LINK/////////////
+Deployed App The app has been deployed and can be accessed at https://starlit-brigadeiros-ffd653.netlify.app/
+
